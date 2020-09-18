@@ -1,6 +1,6 @@
 class Sorting:
     
-    def _init_(self,lst):
+    def __init__(self,lst):
         self.lst = lst
         
     def bubble_sort(self,lst):
