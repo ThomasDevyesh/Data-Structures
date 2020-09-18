@@ -1,6 +1,6 @@
 class Array:
     
-    def _init_(self,array,number):
+    def __init__(self,array,number):
         self.lst = sorted(array)
         self.number = number
     def binary_search(self,lst,n,start,end):
